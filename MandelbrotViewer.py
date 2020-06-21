@@ -10,10 +10,6 @@ from numba import njit, prange
 # Increase iterations: r
 # Decrease iterations: f
 # Take Screenshot: t
-# 1: Disable Time Approach/Maintainance
-# 2-5: Enable Time Approach Targeting different times
-# z: Enable Progressive Refine
-# c: Disable Progressive Refine
 try:
     @njit(cache=True, fastmath=True, parallel=False, nogil=True)
     def brot(sx, sy, fxs, fxf, fys, fyf, mx):
@@ -53,16 +49,6 @@ try:
         temp = translate(cam, [center[0]*-1, center[1]*-1])
         cam = [[p[0]*amount, p[1]*amount] for p in cam]
         return translate(cam, center)
-
-    #SETTINGS
-
-    TIME_MAINTAIN = False #Adaptive Sampling to maintain a time per frame in miliseconds
-    # ENABLING MAY CAUSE THE SCREEN TO FLASH!!!
-    # set to False to Disable
-    # 66.6 = 15 fps
-    # 33.3 = 30 fps
-    # 22.2 = 45 fps
-    # 16.6 = 60 fps
 
     RESOLUTION = [1050, 600]
     #Suggest a 1.75 : 1 ratio to maintain accuracy
