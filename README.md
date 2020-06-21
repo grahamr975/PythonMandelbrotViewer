@@ -38,9 +38,11 @@ End with an example of getting some data out of the system or using it for a lit
 **Movement:** WASD
 
 **Zoom in:** e
+
 **Zoom out:** q
 
 **Increase iterations:** r
+
 **Decrease iterations:** f
 
 **Take Screenshot:** t
