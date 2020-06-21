@@ -29,10 +29,8 @@ pip install numpy
 ### Installing
 
 1. Install all needed prerequisites (Listed above)
-2. Download the included PythonMandelbrotViewer.py file
-3. Execute PythonMandelbrotViewer.py
-
-End with an example of getting some data out of the system or using it for a little demo
+2. Download the included MandelbrotViewer.py file
+3. Execute MandelbrotViewer.py
 
 ### Controls
 **Movement:** WASD
