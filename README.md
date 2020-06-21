@@ -4,26 +4,21 @@ PythonMandelbrotViewer is an experimental mandlebrot viewer coded in Python 3.8 
 
 ### Prerequisites
 
-Python 3.8
-https://www.python.org/downloads/release/python-380/
+* Python 3.8 - https://www.python.org/downloads/release/python-380/
 
-pip (recommended for installing the other prerequsisites)
-https://pip.pypa.io/en/stable/reference/pip_install/
+* pip (recommended for installing the other prerequsisites) - https://pip.pypa.io/en/stable/reference/pip_install/
 
-numba
-http://numba.pydata.org
+* numba - http://numba.pydata.org
 ```
 pip install numba
 ```
 
-pygame
-https://www.pygame.org/news
+* pygame - https://www.pygame.org/news
 ```
 pip install pygame
 ```
 
-numpy
-https://numpy.org/
+* numpy - https://numpy.org/
 ```
 pip install numpy
 ```
