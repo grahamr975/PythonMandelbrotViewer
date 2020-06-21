@@ -1,6 +1,7 @@
 # PythonMandelbrotViewer
 
 PythonMandelbrotViewer is an experimental mandlebrot viewer coded in Python 3.8 with zoom, movement, and screenshot functionality. 
+![](MandelbrotGif.gif)
 
 ### Prerequisites
 
